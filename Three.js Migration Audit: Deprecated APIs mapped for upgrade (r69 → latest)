@@ -1,0 +1,4 @@
+This PR audits the application source (excluding vendored Three.js) to identify deprecated APIs that will break when upgrading from r69 to a modern Three.js release.
+
+Result: 19 deprecated API usages across 3 files.
+This acts as a migration checklist before performing the upgrad
